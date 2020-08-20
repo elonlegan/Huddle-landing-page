@@ -1,0 +1,10 @@
+:root {
+  --background-color: hsl(257, 40%, 49%);
+  --background-image: url(../images/bg-mobile.svg);
+  --fuente-primaria: "Rubik", sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  background-image: var(--background-image);
+}
