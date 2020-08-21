@@ -1,2 +1,54 @@
 @media screen and (min-width: 1024px) {
+  :root {
+    --background-image: url(../images/bg-desktop.svg);
+  }
+
+  body {
+    background-size: auto;
+  }
+
+  .logo {
+    width: 220px;
+  }
+
+  .main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: start;
+    min-height: calc(100vh - 212px);
+  }
+
+  .text-container {
+    max-width: 520px;
+  }
+
+  .title {
+    font-size: 40px;
+  }
+
+  .paragraph {
+    font-size: 18px;
+  }
+
+  .register-button {
+    margin: 0;
+    width: 210px;
+    height: 55px;
+    font-size: 18px;
+  }
+  .footer {
+    justify-content: flex-end;
+  }
+
+  .social-link {
+    width: 40px;
+    height: 40px;
+    font-size: 126%;
+  }
+
+  .mockup-image {
+    margin: 50px 10px 0px 0px;
+    width: 50%;
+  }
 }
